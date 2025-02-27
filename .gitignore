@@ -1,0 +1,46 @@
+# Binários compilados e pacotes NuGet
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.app/
+*.vs/
+*.vscode/
+*.user
+*.suo
+*.sln.cache
+*.csproj.user
+
+# Logs e arquivos de depuração
+*.log
+*.bak
+*.swp
+*.lock.json
+
+# Configurações locais e arquivos de build
+appsettings.json
+appsettings.*.json
+secrets.json
+launchSettings.json
+
+# Dependências gerenciadas pelo NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+
+# Arquivos gerados pelo Rider ou Visual Studio
+.idea/
+*.cache
+*.suo
+*.resharper
+.vs/
+
+# Arquivos temporários e cache do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Pasta do Git ao clonar submódulos
+.git/modules/
